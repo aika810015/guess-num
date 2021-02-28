@@ -1,5 +1,7 @@
 import random
-r = random.randint(1, 100)
+start = int(input("ランダム数字を決めてください："))
+end = int(input("ランダム範囲を決めてください："))
+r = random.randint(start, end)
 count = 0
 while True:
 	count += 1
